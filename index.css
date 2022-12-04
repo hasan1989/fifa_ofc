@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(142, 245, 245);
+    margin-top: 20px;
+}
+
+.head {
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.flag {
+    display: flex;
+    gap: 100px;
+    justify-content:space-around;
+    margin-top: 10px;
+}
+
+.arg {
+background-color: blue;
+
+}
+
+.aus {
+background-color: brown;
+
+}
+
+.btncontainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: chartreuse;
+}
+
+.btn {
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.btn_inactive {
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.btn_active {
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    background-color: rgb(159, 215, 252);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.info {
+    background-color:darkblue;
+    margin-top: 10px;
+    height: 30pc;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* POSS  */
+
+#poss_a {
+    background-color: darkkhaki;
+    height: 80px;
+    width: 40pc;
+    margin-top: 10px;
+    display: none;
+}
+
+#poss_b {
+    background-color: darkorange;
+    height: 80px;
+    width: 40pc;
+    margin-top: 10px;
+    display: none;
+}
+
+/* PASS */
+
+#pass_a {
+    background-color: rgb(2, 60, 78);
+    height: 80px;
+    width: 40pc;
+    margin-top: 10px;
+    display: none;
+}
+
+#pass_b {
+    background-color: rgb(87, 55, 230);
+    height: 80px;
+    width: 40pc;
+    margin-top: 10px;
+    display: none;
+}
+
+
+.divider {
+  border-left: 2px solid green;
+  height: 20pc;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 12pc;
+}
+
